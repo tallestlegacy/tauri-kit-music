@@ -1,5 +1,4 @@
 import { sveltekit } from '@sveltejs/kit/vite';
-import type { UserConfig } from 'vite';
 import adapter from '@sveltejs/adapter-static'; // This was changed from adapter-auto
 import preprocess from 'svelte-preprocess';
 
